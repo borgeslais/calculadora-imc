@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    padding: 24px 32px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(34, 54, 51);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 100px;
+        border-radius: 2px;
+        border: none;
+        padding: 4px 6px;
+        margin-left: 4px;
+        background-color: transparent;
+        border-bottom: 1px solid rgb(169, 207, 185);
+        color: white;
+    }
+}
+
+p {
+    display: flex;
+}
+
+.form__outer {
+    display: block;
+}
+
+.form__inner {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px 0;
+}
+
+button {
+    color: white;
+    background-color: rgb(100, 131, 101);
+    padding: 16px 8px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 32px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+}
+
+.td__q {
+    color: #bebebe;
+
+    &__result {
+        color:rgb(106, 159, 206);
+        padding: 2px;
+        font-weight: bold;
+    }
+}
+
+.td__a {
+    color: #bebebe;
+    font-weight: semi-bold;
+
+    &__result {
+        color: rgb(169, 207, 185);
+        padding: 2px;
+    }
+}
+
+.result {
+    margin-top: 24px;
+}
