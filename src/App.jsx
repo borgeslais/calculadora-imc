@@ -2,7 +2,7 @@ import './global.scss';
 import React, { useState, useEffect } from "react";
 import TabelaIMC from "./components/Tabela/index";
 import Perfil from "./components/Perfil/index";
-import Formulario from './components/formulario';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
